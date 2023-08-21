@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+video{
+    width: 60%; 
+     height: 50vh;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#controls{
+    background-color: gray;
+    width: 45%;
+    height: 120px;
+   margin-left: 210px;
+   padding-top: 20px;
+}
+
+#durationBar{
+    width: 80%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    /* margin-right: 10px; */
+}
+#progressBar{
+    background-color: white;
+    height: 10px;
+    width: 0%;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+#bars{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#time{
+    display: flex;
+    margin-top: -3px;
+    font-weight: 900;
+}
+#buttons > i{
+    margin-right: 15px;
+
+}
+
+#volumecomplete{
+    width: 100px;
+    height: 7px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+#volumeprogressbar{
+    width: 0%;
+    height: 7px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+#buttons{
+    width: 100px;
+    display: flex;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 10px;
+   
+    
+    
+    
+}
+#volumeandspeed{
+    display: flex;
+    /* background-color: black; */
+   
+    
+}
+#options{
+    display: flex;
+    /* justify-content: space-around; */
+    /* background-color: tomato; */
+    margin-right: 5px;
+    
+}
+#screen{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+
+    /* justify-content: space-between; */
+    /* background-color: orchid; */
+}
+#one{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: yellow; */
+}
+#two{
+    width: 100%;
+    display: flex;
+    
+    /* background-color: green; */
+}
+#three{
+    display: flex;
+    /* background-color: blue; */
+}
+
+/* select{
+    width: 52px;
+    height: 20px;
+    border: 1px solid white;
+    color: black;
+}
+option{
+    display: none;
+} */
+
+.addvideo{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
